@@ -10,7 +10,7 @@ fn load_file(path: &String) -> Vec<u64> {
 }
 
 fn solve(input: Vec<u64>) -> usize {
-    let sums: Vec<u64> = input.windows(3).map(|pair| pair.iter().sum()).collect();
+    let sums: Vec<u64> = input.windows(3).map(|triple| triple.iter().sum()).collect();
     sums.windows(2).filter(|pair| pair[0] < pair[1]).count()
 }
 
