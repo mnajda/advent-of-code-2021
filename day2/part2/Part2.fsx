@@ -27,7 +27,6 @@ let executeCommands commands =
     let rec execute (commands : _ list, position : int * int * int) : int * int * int =
         match commands with
         | []              -> position
-        | command :: []   -> executeCommand(command, position)
         | command :: tail -> execute(tail, executeCommand(command, position))
     execute(commands, (0, 0, 0))
 
