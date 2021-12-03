@@ -26,39 +26,39 @@ defmodule Part1 do
     iterate(input, acc)
   end
 
-  defp gamma_rate(input, length) do
-    half = length / 2
-
-    input
-    |> Enum.map(fn x ->
-      if x > half do
-        1
-      else
-        0
-      end
-    end)
-  end
-
-  defp epsilon_rate(input, length) do
-    half = length / 2
-
-    input
-    |> Enum.map(fn x ->
-      if x < half do
-        1
-      else
-        0
-      end
-    end)
+  defp rate(input, transormation) do
+    input |> Enum.map(transormation)
   end
 
   defp solve(input) do
     nr_of_items = length(input)
-    width = length(hd(input))
+    half = nr_of_items / 2
 
     output = iterate(input)
-    gamma = Integer.undigits(gamma_rate(output, nr_of_items), 2)
-    epsilon = Integer.undigits(epsilon_rate(output, nr_of_items), 2)
+
+    gamma =
+      Integer.undigits(
+        rate(output, fn x ->
+          if(x > half) do
+            1
+          else
+            0
+          end
+        end),
+        2
+      )
+
+    epsilon =
+      Integer.undigits(
+        rate(output, fn x ->
+          if(x < half) do
+            1
+          else
+            0
+          end
+        end),
+        2
+      )
 
     gamma * epsilon
   end
