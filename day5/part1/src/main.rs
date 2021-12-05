@@ -12,7 +12,7 @@ struct Coords {
 fn make_coords(values: &(u64, u64)) -> Coords {
     Coords {
         x: values.0,
-        y: values.1
+        y: values.1,
     }
 }
 
@@ -23,7 +23,12 @@ fn load_file(path: &String) -> Vec<(Coords, Coords)> {
         .map(|row| row.split("->").collect())
         .filter(|elem: &String| !elem.is_empty())
         .map(|elem| elem.split(",").map(|s| s.to_string()).collect::<Vec<_>>())
-        .map(|coords| (coords[0].parse::<u64>().unwrap(), coords[1].parse::<u64>().unwrap()))
+        .map(|coords| {
+            (
+                coords[0].parse::<u64>().unwrap(),
+                coords[1].parse::<u64>().unwrap(),
+            )
+        })
         .collect();
 
     values
