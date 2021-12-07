@@ -12,3 +12,4 @@ Solutions for [Advent of Code 2021](https://adventofcode.com/2021).
 | 4 | [Giant Squid](https://adventofcode.com/2021/day/4) | Python | [day4](https://github.com/mnajda/advent-of-code-2021/tree/main/day4) |
 | 5 | [Hydrothermal Venture](https://adventofcode.com/2021/day/5) | Rust | [day5](https://github.com/mnajda/advent-of-code-2021/tree/main/day5) |
 | 6 | [Lanternfish](https://adventofcode.com/2021/day/6) | Scala | [day6](https://github.com/mnajda/advent-of-code-2021/tree/main/day6) |
+| 7 | [The Treachery of Whales](https://adventofcode.com/2021/day/7) | F# | [day7](https://github.com/mnajda/advent-of-code-2021/tree/main/day7) |
