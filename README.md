@@ -13,3 +13,4 @@ Solutions for [Advent of Code 2021](https://adventofcode.com/2021).
 | 5 | [Hydrothermal Venture](https://adventofcode.com/2021/day/5) | Rust | [day5](https://github.com/mnajda/advent-of-code-2021/tree/main/day5) |
 | 6 | [Lanternfish](https://adventofcode.com/2021/day/6) | Scala | [day6](https://github.com/mnajda/advent-of-code-2021/tree/main/day6) |
 | 7 | [The Treachery of Whales](https://adventofcode.com/2021/day/7) | F# | [day7](https://github.com/mnajda/advent-of-code-2021/tree/main/day7) |
+| 8 | [Seven Segment Search](https://adventofcode.com/2021/day/8) | Rust | [day8](https://github.com/mnajda/advent-of-code-2021/tree/main/day8) |
