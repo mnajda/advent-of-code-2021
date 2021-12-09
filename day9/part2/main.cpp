@@ -135,7 +135,7 @@ int main(int argc, char** argv)
         throw std::runtime_error("Provide filepath");
     }
 
-    const auto input = load_file(argv[1]);
+    auto input = load_file(argv[1]);
     const auto result = solve(std::move(input));
     std::cout << result << std::endl;
 }
