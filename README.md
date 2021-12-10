@@ -15,3 +15,4 @@ Solutions for [Advent of Code 2021](https://adventofcode.com/2021).
 | 7 | [The Treachery of Whales](https://adventofcode.com/2021/day/7) | F# | [day7](https://github.com/mnajda/advent-of-code-2021/tree/main/day7) |
 | 8 | [Seven Segment Search](https://adventofcode.com/2021/day/8) | Rust | [day8](https://github.com/mnajda/advent-of-code-2021/tree/main/day8) |
 | 9 | [Smoke Basin](https://adventofcode.com/2021/day/9) | C++ | [day9](https://github.com/mnajda/advent-of-code-2021/tree/main/day9) |
+| 10 | [Syntax Scoring](https://adventofcode.com/2021/day/10) | Python | [day10](https://github.com/mnajda/advent-of-code-2021/tree/main/day10) |
