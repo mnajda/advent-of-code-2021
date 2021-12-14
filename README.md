@@ -19,3 +19,4 @@ Solutions for [Advent of Code 2021](https://adventofcode.com/2021).
 | 11 | [Dumbo Octopus](https://adventofcode.com/2021/day/11) | C++ | [day11](https://github.com/mnajda/advent-of-code-2021/tree/main/day11) |
 | 12 | [Passage Pathing](https://adventofcode.com/2021/day/12) | C# | [day12](https://github.com/mnajda/advent-of-code-2021/tree/main/day12) |
 | 13 | [Transparent Origami](https://adventofcode.com/2021/day/13) | Scala | [day13](https://github.com/mnajda/advent-of-code-2021/tree/main/day13) |
+| 14 | [Extended Polymerization](https://adventofcode.com/2021/day/14) | Rust | [day14](https://github.com/mnajda/advent-of-code-2021/tree/main/day14) |
