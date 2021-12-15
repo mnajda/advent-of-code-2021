@@ -5,7 +5,6 @@
 #include <iostream>
 #include <string>
 #include <queue>
-#include <unordered_map>
 #include <vector>
 
 using PositionWithRisk = std::pair<std::int64_t, std::pair<std::int64_t, std::int64_t>>;
@@ -15,14 +14,6 @@ constexpr auto steps = std::array<std::pair<std::int64_t, std::int64_t>, 4>{
     std::pair{1, 0},
     std::pair{0, -1},
     std::pair{-1, 0}
-};
-
-struct pair_hash
-{
-    std::size_t operator() (const std::pair<std::int64_t, std::int64_t>& pair) const
-    {
-        return std::hash<std::int64_t>()(pair.first) ^ std::hash<std::int64_t>()(pair.second);
-    }
 };
 
 std::vector<std::vector<std::int64_t>> load_file(const char* filepath)
