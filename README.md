@@ -22,3 +22,4 @@ Solutions for [Advent of Code 2021](https://adventofcode.com/2021).
 | 14 | [Extended Polymerization](https://adventofcode.com/2021/day/14) | Rust | [day14](https://github.com/mnajda/advent-of-code-2021/tree/main/day14) |
 | 15 | [Chiton](https://adventofcode.com/2021/day/15) | C++ | [day15](https://github.com/mnajda/advent-of-code-2021/tree/main/day15) |
 | 16 | [Packet Decoder](https://adventofcode.com/2021/day/16) | Python | [day16](https://github.com/mnajda/advent-of-code-2021/tree/main/day16) |
+| 17 | [Trick Shot](https://adventofcode.com/2021/day/17) | F# | [day17](https://github.com/mnajda/advent-of-code-2021/tree/main/day17) |
