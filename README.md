@@ -23,3 +23,4 @@ Solutions for [Advent of Code 2021](https://adventofcode.com/2021).
 | 15 | [Chiton](https://adventofcode.com/2021/day/15) | C++ | [day15](https://github.com/mnajda/advent-of-code-2021/tree/main/day15) |
 | 16 | [Packet Decoder](https://adventofcode.com/2021/day/16) | Python | [day16](https://github.com/mnajda/advent-of-code-2021/tree/main/day16) |
 | 17 | [Trick Shot](https://adventofcode.com/2021/day/17) | F# | [day17](https://github.com/mnajda/advent-of-code-2021/tree/main/day17) |
+| 18 | [Snailfish](https://adventofcode.com/2021/day/18) | Rust | [day18](https://github.com/mnajda/advent-of-code-2021/tree/main/day18) |
